@@ -7,5 +7,5 @@ do
     let num++
 done
 
-printf "Created: ${date}-${num}.cpp\n"
 cat temp.cpp > "${date}-${num}.cpp"
+printf "Created: ${date}-${num}.cpp\n"
